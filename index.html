@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SA Electronics - Advanced Milk Analysis Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <small>
+                        <i class="fas fa-envelope me-2"></i>info@saelectronics.com
+                        <i class="fas fa-phone ms-3 me-2"></i>+1 234 567 890
+                    </small>
+                </div>
+                <div class="col-md-6 text-end">
+                    <small>
+                        <a href="#" class="me-3"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                SA ELECTRONICS
+                <span class="tagline">Smart Milk Solutions</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                            <li>
+                                <h6 class="dropdown-header">Weighing Scale</h6>
+                                <a class="dropdown-item" href="ds215n.html">DS215N Platform Scale</a>
+                                <a class="dropdown-item" href="#weighing-scale-ds215ss">DS-215SS Platform Scale</a>
+                                <a class="dropdown-item" href="#weighing-scale-milk-weigher">Milk Weigher</a>
+                            </li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <h6 class="dropdown-header">Milk Analyzers</h6>
+                                <a class="dropdown-item" href="#milk-analyzer-ma815bs">MA-815BS</a>
+                                <a class="dropdown-item" href="#milk-analyzer-ma825">MA-825</a>
+                                <a class="dropdown-item" href="#milk-analyzer-ma815">MA-815</a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#solutions">Solutions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <!-- Hero Section -->
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+        <!-- First Slide -->
+        <div class="carousel-item active">
+            <div class="hero-content">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <h1 data-aos="fade-right">Advanced Milk Analysis Technology</h1>
+                            <p data-aos="fade-right" data-aos-delay="200">Leading the dairy industry with state-of-the-art electronic solutions</p>
+                            <a href="#contact" class="btn btn-primary" data-aos="fade-right" data-aos-delay="400">Get Started</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="/slideImage1.jpg" alt="Milk Analyzer" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Second Slide -->
+        <div class="carousel-item">
+            <div class="hero-content">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <h1 data-aos="fade-right">Advanced Milk Analysis Technology</h1>
+                            <p data-aos="fade-right" data-aos-delay="200">Leading the dairy industry with state-of-the-art electronic solutions</p>
+                            <a href="#contact" class="btn btn-primary" data-aos="fade-right" data-aos-delay="400">Get Started</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="/slideImage3.jpg" alt="Milk Analyzer" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Third Slide -->
+        <div class="carousel-item">
+            <div class="hero-content">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <h1 data-aos="fade-right">Advanced Milk Analysis Technology</h1>
+                            <p data-aos="fade-right" data-aos-delay="200">Leading the dairy industry with state-of-the-art electronic solutions</p>
+                            <a href="#contact" class="btn btn-primary" data-aos="fade-right" data-aos-delay="400">Get Started</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="/slideImage1.jpg" alt="Milk Analyzer" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Features Section -->
+    <section class="features py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="feature-card">
+                        <i class="fas fa-microchip"></i>
+                        <h3>Advanced Technology</h3>
+                        <p>State-of-the-art milk analysis equipment with precise measurements</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-card">
+                        <i class="fas fa-flask"></i>
+                        <h3>Accurate Results</h3>
+                        <p>High-precision analysis for fat, protein, and other milk components</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-card">
+                        <i class="fas fa-headset"></i>
+                        <h3>24/7 Support</h3>
+                        <p>Round-the-clock technical assistance and maintenance support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h6 class="text-primary">Our Products</h6>
+                <h2>Advanced Milk Analysis Solutions</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="product-card">
+                        <img src="/ma825.jpg" alt="Product 1" class="img-fluid">
+                        <div class="product-content">
+                            <h4>MA-815BS
+                                                        </h4>
+                            <p>Professional milk composition analyzer with advanced sensing technology</p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-card">
+                        <img src="/dx415.jpg" alt="Product 2" class="img-fluid">
+                        <div class="product-content">
+                            <h4>MA-815BS 
+                            </h4>
+                            <p>High-speed milk quality testing system for industrial use</p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="product-card">
+                        <img src="/dx414O.jpg" alt="Product 3" class="img-fluid">
+                        <div class="product-content">
+                            <h4>PortaScan Mini</h4>
+                            <p>Portable milk analyzer for field testing applications</p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <img src="/FinalMap.png" alt="About Us" class="img-fluid rounded-3">
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="about-content ps-lg-4">
+                        <h6 class="text-primary">About Us</h6>
+                        <h2>Leading Innovation in Dairy Analysis</h2>
+                        <p>SA Electronics has been at the forefront of milk analysis technology for over two decades. Our commitment to innovation and quality has made us a trusted partner in the dairy industry.</p>
+                        <div class="stats row g-4 mt-4">
+                            <div class="col-6">
+                                <h3>10+</h3>
+                                <p>Years Experience</p>
+                            </div>
+                            <div class="col-6">
+                                <h3>1000+</h3>
+                                <p>Satisfied Clients</p>
+                            </div>
+                            <div class="col-6">
+                                <h3>28+</h3>
+                                <p>States Served</p>
+                            </div>
+                            <div class="col-6">
+                                <h3>24/7</h3>
+                                <p>Technical Support</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="solutions py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h6 class="text-primary">Our Solutions</h6>
+                <h2>Comprehensive Dairy Analysis Solutions</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3" data-aos="fade-up">
+                    <div class="solution-card">
+                        <i class="fas fa-industry"></i>
+                        <h4>Industrial Solutions</h4>
+                        <ul class="list-unstyled">
+                            <li>High-volume testing</li>
+                            <li>Automated systems</li>
+                            <li>Production integration</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="solution-card">
+                        <i class="fas fa-flask"></i>
+                        <h4>Laboratory Solutions</h4>
+                        <ul class="list-unstyled">
+                            <li>Precision testing</li>
+                            <li>Research equipment</li>
+                            <li>Quality control</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="solution-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>Retail Solutions</h4>
+                        <ul class="list-unstyled">
+                            <li>Point-of-Scale (pos)</li>
+                            <li>Portable analyzers</li>
+                            <li>Quality Assurance tools</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="600">
+                    <div class="solution-card">
+                        <i class="fas fa-cogs"></i>
+                        <h4>Custom Solutions</h4>
+                        <ul class="list-unstyled">
+                            <li>Specialized systems</li>
+                            <li>Quality</li>
+                            <li>Best in class Products</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4" data-aos="fade-right">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <p>Have questions? Reach out to our Store.</p>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>123 Business Street, Tech Park, City</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <p>+1 234 567 890</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>info@saelectronics.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8" data-aos="fade-left">
+                    <form action="https://formsubmit.co/unknownsomeone152@gmail.com" method="POST">
+                        <!-- Hidden fields for FormSubmit -->
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_subject" value="New Message from Contact Form">
+                        <input type="hidden" name="_autoresponse" value="Thank you for reaching out! We will respond soon.">
+                   
+                    
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" rows="4" name="message" placeholder="Your Message" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-about">
+                        <h4>SA Electronics</h4>
+                        <p>Leading provider of advanced milk analysis solutions for the dairy industry.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#products">Products</a></li>
+                   
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5>Our Solutions</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Industrial Solutions</a></li>
+                        <li><a href="#">Laboratory Equipment</a></li>
+                    
+                        <li><a href="#">Technical Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5>More Enquiry!</h5>
+                    <p>More questions ? better solutions-enquire now !</p>
+                    <form action="https://formsubmit.co/unknownsomeone152@gmail.com" method="POST">
+                        <!-- Hidden fields for FormSubmit -->
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_subject" value="New Enquiry from Newsletter Form">
+                        <input type="hidden" name="_autoresponse" value="Thank you for your enquiry! We will respond soon.">
+                        
+                    
+                        <div class="input-group">
+                            <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                            <button class="btn btn-primary" type="submit">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom mt-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="mb-0">&copy; 2024 SA Electronics. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <a href="#">Privacy Policy</a>
+                        <span class="mx-2">|</span>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Cookie Consent -->
+    <div class="cookie-consent" id="cookieConsent">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <p class="mb-md-0">We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.</p>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <button class="btn btn-light me-2" onclick="acceptCookies()">Accept</button>
+                    <button class="btn btn-outline-light" onclick="declineCookies()">Decline</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+
+        const heroCarousel = document.getElementById('heroCarousel');
+if (heroCarousel) {
+    new bootstrap.Carousel(heroCarousel, {
+        interval: 3000, // Slide every 1 second
+        ride: 'carousel'
+    });
+}
+
+
+        // Preloader
+        window.addEventListener('load', function() {
+            document.getElementById('preloader').style.display = 'none';
+        });
+
+        // Back to Top Button
+        window.onscroll = function() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById('backToTop').style.display = 'block';
+            } else {
+                document.getElementById('backToTop').style.display = 'none';
+            }
+        };
+
+        document.getElementById('backToTop').addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Cookie Consent
+        function acceptCookies() {
+            document.getElementById('cookieConsent').style.display = 'none';
+            // Add your cookie setting logic here
+        }
+
+        function declineCookies() {
+            document.getElementById('cookieConsent').style.display = 'none';
+            // Add your cookie declining logic here
+        }
+
+        // Navbar Scroll Effect
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 50) {
+                document.querySelector('.navbar').classList.add('scrolled');
+            } else {
+                document.querySelector('.navbar').classList.remove('scrolled');
+            }
+        });
+
+        //navbar
+        document.addEventListener('DOMContentLoaded', () => {
+        const productsNavItem = document.querySelector('.nav-item.dropdown');
+        productsNavItem.addEventListener('mouseenter', () => {
+            const dropdownMenu = productsNavItem.querySelector('.dropdown-menu');
+            dropdownMenu.classList.add('show');
+        });
+        productsNavItem.addEventListener('mouseleave', () => {
+            const dropdownMenu = productsNavItem.querySelector('.dropdown-menu');
+            dropdownMenu.classList.remove('show');
+        });
+    });
+
+    
+    
+    </script>
+</body>
+</html>
